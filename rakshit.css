@@ -1,0 +1,76 @@
+#nav{ font-size: 60px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: green;
+height: 100px;}
+
+ @media (max-width:990px) {#nav{ height: 200px;}}
+ 
+ /*image logo navbar**/
+#logoimg{ height: 100px;position: absolute; top: 2px; left: 3px;}
+@media (max-width:990px) {#logoimg{ height: 200px;}}
+
+#navbarname{ font-size: 60px; position: absolute; left: 120px;}
+@media (max-width:990px) {#navbarname{ position:absolute;left: 260px; font-size: 120px;}}
+#ul1{ position: absolute;
+     left: 25%;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 20px;
+     z-index: 2;}
+   @media (max-width:990px) {#nav{  z-index: 2;}}
+
+li{ margin-left: 60px;}
+@media (max-width:990px) {li{ font-size: 50px;  color: rgb(26, 21, 21);}}
+
+.bg1{ height: 100px;
+      width: 100%;}
+     
+
+#bgimg1{ width: 100%;
+         height: 600px;
+         border-radius: 30px;
+         opacity: 0.6;
+        } @media (max-width:990px) {#bgimg1{ height: 800px; width: 100%;}
+         
+      }
+#search{ position: relative;
+         bottom: 320px;
+         width: 600px;
+         height: 70px;
+         color: rgb(110, 93, 93);
+         font-size: 30px;
+         border-radius: 8px;
+         background-color: rgb(255, 223, 223);
+      left: 30%;}
+@media (max-width:990px) {#search{ height: 100px; position: relative; left: 140px; width: 60%; background-color: black; border-radius: 120px;}}
+
+#ride{ position: absolute;
+       bottom:181px;
+       font-size: 20px;
+      left: 76%; background-color: rgb(51, 170, 51);
+      width: 130px;
+   height: 70px;
+   border-radius: 8px;}
+   @media (max-width:990px) { #ride{ position: absolute; top: 690px; height: 100px; left: 73%; border-radius: 20px; width: 200px; font-size:37px ;}
+      
+   }
+#ride:hover{ background-color: black;
+             color: aliceblue;}
+             #ride:active{ background-color: gray;}
+
+#RENT{ position: absolute;
+      bottom: 330px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: rgb(29, 36, 41);
+   font-weight: bold;
+left: 25%;}
+@media (max-width:990px) {#RENT{ position: absolute; top: 360px; left: 20%; font-size: 70px; }}
+
+#zero{position: absolute;
+   bottom: 300px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(22, 28, 32);
+font-weight: bold;
+font-size: 20px;
+left: 30%;}
+@media (max-width:990px) {#zero{ position: absolute; top: 540px; left: 20%; font-size: 37px; }}
+
